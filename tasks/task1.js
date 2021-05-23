@@ -32,7 +32,6 @@ class Deque {
         return this.back && this.back.value;
     }
 }
-console.log(dequeSort([10,11,12,1,123,13414]))
 export const dequeSort = (array) =>{
     let dequeIncome = new Deque;
     let dequeSorted = new Deque;
